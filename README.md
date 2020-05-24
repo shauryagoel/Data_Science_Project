@@ -136,3 +136,28 @@ We can see from the right plot that the *rating* increases as table booking serv
 ## Predictive Modeling
 
 ### Restaurant Rating prediction
+
+* Rating prediction of a restaurant given all other variables such as cost per person, location, online_order, cuisines etc.
+* Applied “Logit” Link Function to predict ‘rating’ between range from 0 to 5.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/23395833/82751666-75044e00-9dd6-11ea-8898-e2cfb5761794.png" alt="Image"/>
+</p>
+
+### Review Rating prediction
+
+* Did feature extraction from reviews using BERT (Bidirectional Encoder Representations from Transformers).
+* Trained various classifiers to predict **rating** of the review
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/23395833/82751728-e2b07a00-9dd6-11ea-9dbb-93e6bf486ca4.png" alt="Image"/>
+</p>
+
+### Revenue prediction
+
+* Given parameters like ‘location’, ‘restaurant type’, ‘online order’, ‘booking table’ etc. we predicted the overall revenue of restaurants.
+* Random Forest Regressor gave least error, hence, we used this model for revenue prediction.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/23395833/82751752-1b505380-9dd7-11ea-9b4f-1b6df0cdfc77.png" alt="Image"/>
+</p>
